@@ -1,4 +1,4 @@
 python-telegram-bot==20.8
-qrcode[pil]==7.4.2
-Pillow==10.2.0
+qrcode[pil]==8.2
+Pillow>=11.3.0
 python-dotenv==1.0.1
