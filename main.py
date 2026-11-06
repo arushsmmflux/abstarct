@@ -934,7 +934,7 @@ def main():
     application.add_handler(CommandHandler("setupi", cmd_setupi))
     application.add_handler(CommandHandler("setplanname", cmd_setplanname))
     application.add_handler(CommandHandler("setplanprice", cmd_setplanprice))
-    application.add_handler(CommandHandler("setplánlink", cmd_setplánlink))
+   application.add_handler(CommandHandler("setplanlink", cmd_setplanlink))
     application.add_handler(CommandHandler("setplancaption", cmd_setplancaption))
     application.add_handler(CommandHandler("setstartmessage", cmd_setmsg))
     application.add_handler(CommandHandler("sethowtousemessage", cmd_setmsg))
